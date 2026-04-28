@@ -1,0 +1,22 @@
+<div class="social-links">
+<a href="https://www.facebook.com"
+target="_blank">Faebook</a>
+<a href="https://www.instragram.com
+target="_blank">Instragram</a
+<a href="https://www.twitter.com
+target="_blank">Twitter(x)</a>
+<a href="https://www.Linkedin.com
+target="_blank">LinkedIN</a>
+<a href="https://www.youtube.com"
+taarget="_blank">Youtube</a>
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+future-ai-pro/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│       ├── images/
+│       └── icons/
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   └── aiRoutes.js
+│   ├── controllers/
+│   │   └── aiController.js
+│   └── config/
+│       └── db.js
+│
+├── database/
+│   └── models/
+│       └── userModel.js
+│
+├── public/
+│   └── uploads/
+│
+├── .env
+├── package.jso

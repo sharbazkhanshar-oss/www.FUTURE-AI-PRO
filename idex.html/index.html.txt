@@ -1,0 +1,55 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>FutureAIPro</title>
+<style>
+body{
+font-family:Arial;
+background:|0f172a;
+color:white;
+text-align:center;
+}
+input{
+padding:10px;
+cursor:pointer;
+}
+|box{
+margin-top:20px;
+padding:10px;
+background:|1e293b;
+min-height:50px;
+}
+button{
+padding:10px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<h1>FutureAIPro</h1>
+<input id="userInput"
+placeholder="Ask
+something...">
+<button
+onclick="askAI()">Ask</
+button>
+<div id="box"></div>
+<script>
+async function ask AI(){
+let input =document.getElementBYId("userInput").value;
+let box=document.getElementById("box");
+box.innerHTML=
+"Thinking...";
+let res=awaitfetch("http://
+localhost:3000/ask",{
+method:"POST",
+headers:
+{"Content-Type":"application/json"},
+body:
+JSON.stringify({message:input})
+});
+let data=awaitres.json()box.innerHTML=data.replay;
+}
+</script>
+</body>
+</html>
